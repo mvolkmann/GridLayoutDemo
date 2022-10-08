@@ -15,6 +15,7 @@
 		1AA21A6228F21FC500EEC534 /* SupportingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA21A5D28F21FC500EEC534 /* SupportingViews.swift */; };
 		1AA21A6328F21FC500EEC534 /* DismissButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA21A5E28F21FC500EEC534 /* DismissButtonModifier.swift */; };
 		1AA21A6428F21FC500EEC534 /* TextGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA21A5F28F21FC500EEC534 /* TextGrids.swift */; };
+		1AA21A6628F2235300EEC534 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AA21A6528F2235300EEC534 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1AA21A5D28F21FC500EEC534 /* SupportingViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportingViews.swift; sourceTree = "<group>"; };
 		1AA21A5E28F21FC500EEC534 /* DismissButtonModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissButtonModifier.swift; sourceTree = "<group>"; };
 		1AA21A5F28F21FC500EEC534 /* TextGrids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextGrids.swift; sourceTree = "<group>"; };
+		1AA21A6528F2235300EEC534 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		1A8FD64428F0C88C002AF972 = {
 			isa = PBXGroup;
 			children = (
+				1AA21A6528F2235300EEC534 /* README.md */,
 				1A8FD64F28F0C88C002AF972 /* GridLayoutDemo */,
 				1A8FD64E28F0C88C002AF972 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AA21A6628F2235300EEC534 /* README.md in Resources */,
 				1A8FD65828F0C88E002AF972 /* Preview Assets.xcassets in Resources */,
 				1A8FD65528F0C88E002AF972 /* Assets.xcassets in Resources */,
 			);
