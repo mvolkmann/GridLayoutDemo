@@ -6,6 +6,14 @@ A grid contains a number of rows and
 each row can contain a different number of cells.
 Each cell holds a view that is either "pushing" or "pulling".
 
+See the YouTube video
+[SwiftUI Grids in iOS 16](https://www.youtube.com/watch?v=ZU_6RejjIKU)
+by Stewart Lynch.
+
+## Example App
+
+
+
 ## `Grid`
 
 A `Grid` is a container view that takes all the space offered to it.
@@ -48,8 +56,22 @@ To override the vertical alignment setting of the current `GridRow`
 for a specific cell, apply the `gridCellAnchor` view modifier
 with a value like `.bottom`, `.center`, or `.top`.
 
-To change the horizontal alignment of a cell within all the columns it spans,
-apply the `gridCellAnchor` view modifier
+To set the default horizontal alignment of all cells
+within the columns they span,
+pass the `alignment` argument to the `Grid` initializer
+with a value one of the following values:
+
+- `.topLeading`, `.top`, `.topTrailing`,
+- `.leading`, `.center`, or `.trailing`,
+- `.bottomLeading`, `.bottom`, `.bottomTrailing`
+
+To override the horizontal alignment of a specific cell,
+apply the `gridCellAnchor` view modifier with one of values listed above.
+
+## Columns
+
+To set the default horizontal alignment of all cells in a column,
+apply the `gridColumnAlignment` view modifier to any one cell in the column
 with a value like `.leading`, `.center`, or `.trailing`.
 
 ## Resources on SwiftUI Grids

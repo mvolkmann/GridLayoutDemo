@@ -27,6 +27,12 @@ struct Introduction: View {
                                 .gridCellAnchor(.trailing)
                         }
                         Divider()
+                            // This view modifier prevents the Divider
+                            // from pushing the Grid width
+                            // to be the full width of its parent.
+                            // Note how it is not necessary to
+                            // wrap the divider in a GridRow and
+                            // apply the gridCellColumns view modifier.
                             .gridCellUnsizedAxes([.horizontal])
                     }
                     TitleRow(

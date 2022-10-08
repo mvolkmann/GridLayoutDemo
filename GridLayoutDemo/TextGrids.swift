@@ -61,9 +61,9 @@ struct TextGrids: View {
                             .gridCellAnchor(.center)
                     }
                     .bold()
-                    Divider()
-                        .gridCellUnsizedAxes([.horizontal])
                     ForEach(Leader.samples) { leader in
+                        Divider()
+                            .gridCellUnsizedAxes([.horizontal])
                         GridRow {
                             Text(leader.country)
                             Text(leader.firstName)
@@ -74,8 +74,6 @@ struct TextGrids: View {
                             Text("Population:").bold()
                             Text("\(leader.population)")
                         }
-                        Divider()
-                            .gridCellUnsizedAxes([.horizontal])
                     }
                 }
                 .padding()
