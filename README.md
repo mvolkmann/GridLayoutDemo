@@ -3,9 +3,7 @@
 ## Overview
 
 This is a SwiftUI iOS app that demonstrates using grid layout
-that was added in iOS16.
-
-See the YouTube video
+that was added in iOS16.  It is based on the YouTube video
 [SwiftUI Grids in iOS 16](https://www.youtube.com/watch?v=ZU_6RejjIKU)
 by Stewart Lynch.
 
