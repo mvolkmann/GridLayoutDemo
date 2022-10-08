@@ -73,6 +73,6 @@ with a value like `.leading`, `.center`, or `.trailing`.
 
 ## Resources on SwiftUI Grids
 
-- [SwiftUI Grid](https://sarunw.com/posts/swiftui-grid/)
-- [Mastering grid layout in SwiftUI](https://swiftwithmajid.com/2022/08/10/mastering-grid-layout-in-swiftui/)
-- [Eager Grids with SwiftUI](https://swiftui-lab.com/eager-grids/)
+- [SwiftUI Grid](https://sarunw.com/posts/swiftui-grid/) by Sarunw
+- [Mastering grid layout in SwiftUI](https://swiftwithmajid.com/2022/08/10/mastering-grid-layout-in-swiftui/) by Majid
+- [Eager Grids with SwiftUI](https://swiftui-lab.com/eager-grids/) by Javier
