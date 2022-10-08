@@ -71,7 +71,7 @@ To set the default horizontal alignment of all cells in a column,
 apply the `gridColumnAlignment` view modifier to any one cell in the column
 with a value like `.leading`, `.center`, or `.trailing`.
 
-## Resources on SwiftUI Grids
+## Resources
 
 - [SwiftUI Grid](https://sarunw.com/posts/swiftui-grid/) by Sarunw
 - [Mastering grid layout in SwiftUI](https://swiftwithmajid.com/2022/08/10/mastering-grid-layout-in-swiftui/) by Majid
