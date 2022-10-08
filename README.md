@@ -2,21 +2,20 @@
 
 ## Overview
 
-A grid contains a number of rows and
-each row can contain a different number of cells.
-Each cell holds a view that is either "pushing" or "pulling".
+This is a SwiftUI iOS app that demonstrates using grid layout
+that was added in iOS16.
 
 See the YouTube video
 [SwiftUI Grids in iOS 16](https://www.youtube.com/watch?v=ZU_6RejjIKU)
 by Stewart Lynch.
 
-## Example App
-
-
-
 ## `Grid`
 
 A `Grid` is a container view that takes all the space offered to it.
+It contains a number of rows.
+Each row can contain a different number of cells.
+Each cell holds a view that is either
+"pushing" (expands) or "pulling" (doesn't expand).
 
 ## `GridRow`
 
