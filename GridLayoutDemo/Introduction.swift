@@ -8,7 +8,7 @@ struct Introduction: View {
                 VStack {
                     TitleRow(
                         sampleImage: $sampleImage,
-                        title: "Cell Alignments and spans",
+                        title: "Cell Alignments and Spans",
                         image: .Ex1
                     )
                     Grid {
