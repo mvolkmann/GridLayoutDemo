@@ -1,21 +1,17 @@
-//
-//  ContentView.swift
-//  GridLayoutDemo
-//
-//  Created by Mark Volkmann on 10/7/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            Introduction()
+                .tabItem {
+                    Label("Introduction", systemImage: "1.circle.fill")
+                }
+            TextGrids()
+                .tabItem {
+                    Label("Text Grids", systemImage: "2.circle.fill")
+                }
         }
-        .padding()
     }
 }
 
