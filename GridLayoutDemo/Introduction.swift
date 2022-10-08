@@ -13,7 +13,7 @@ struct Introduction: View {
                     )
                     Grid {
                         GridRow(alignment: .top) {
-                            Square(width: 110)
+                            Square(width: 110) // 100+10 for space between cells
                                 .gridCellColumns(2)
                             Square(width: 50)
                             Square(width: 50)
