@@ -72,6 +72,14 @@ with a value one of the following values that are like compass directions:
 To override the alignment of a specific cell,
 apply the `gridCellAnchor` view modifier with one of values listed above.
 
+One way to add an "empty" cell to a row is to use:
+
+```swift
+Color.clear.gridCellUnsizedAxes([.horizontal, .vertical])
+```
+
+Using `EmptyView()` does not work.
+
 ## Resources
 
 - [SwiftUI Grid](https://sarunw.com/posts/swiftui-grid/) by Sarunw
