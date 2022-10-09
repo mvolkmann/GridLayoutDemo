@@ -66,7 +66,7 @@ pass the `alignment` argument to the `Grid` initializer
 with a value one of the following values that are like compass directions:
 
 - `.topLeading`, `.top`, `.topTrailing`,
-- `.leading`, `.center`, or `.trailing`,
+- `.leading`, `.center`, `.trailing`,
 - `.bottomLeading`, `.bottom`, `.bottomTrailing`
 
 To override the alignment of a specific cell,
